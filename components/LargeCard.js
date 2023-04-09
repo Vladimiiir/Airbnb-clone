@@ -9,6 +9,7 @@ function LargeCard({ img, title, description, buttonText }) {
           src={img}
           fill={"absolute"}
           className="rounded-2xl object-cover"
+          alt="largeCard"
         />
       </div>
       <div className="absolute top-32 left-12">

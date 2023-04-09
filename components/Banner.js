@@ -11,11 +11,8 @@ function Banner() {
       />
       <div className="absolute top-1/2 w-full text-center">
         <p className="text-sm sm:text-lg">Not sure where to go? Perfect.</p>
-        <button
-          type="submit"
-          className="text-purple-500 bg-white border-2 rounded-full border-none px-10 py-4 shadow-md my-5 font-bold hover:shadow-xl active:scale-90 transition duration-150"
-        >
-          I'm flexible
+        <button className="px-10 py-4 my-3 font-bold bg-white shadow-md rounded-full text-purple-500 active:scale-90 transition duration-150 transform hover:shadow-xl">
+          Im flexible
         </button>
       </div>
     </div>
