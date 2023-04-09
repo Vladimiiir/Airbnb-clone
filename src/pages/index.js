@@ -3,11 +3,12 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
-import SmallCard from "../../components/Smallcard";
+
 import MediumCard from "../../components/MediumCard";
 import { Carousel } from "react-responsive-carousel";
 import LargeCard from "../../components/LargeCard";
 import Footer from "../../components/Footer";
+import SmallCard from "../../components/SmallCard";
 
 export default function Home({ exploreData, cardsData }) {
   return (
