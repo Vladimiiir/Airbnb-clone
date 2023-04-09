@@ -3,9 +3,7 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
-
 import MediumCard from "../../components/MediumCard";
-import { Carousel } from "react-responsive-carousel";
 import LargeCard from "../../components/LargeCard";
 import Footer from "../../components/Footer";
 import SmallCard from "../../components/SmallCard";
